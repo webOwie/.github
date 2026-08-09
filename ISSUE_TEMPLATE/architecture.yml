@@ -1,0 +1,45 @@
+name: Architecture proposal
+description: Propose a cross-cutting architecture or system-boundary change
+title: "[Architecture]: "
+labels: ["architecture"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What system constraint, risk or design pressure requires a decision?
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Proposed decision
+      description: State the proposed architecture change clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Affected boundaries
+      description: Repositories, public interfaces, trust boundaries, networking, persistence, deployment or identity.
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences and trade-offs
+      description: Benefits, costs, migration impact, lock-in and operational burden.
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Security impact
+      description: Permissions, secrets, data exposure, attack surface and rollback considerations.
+  - type: checkboxes
+    id: adr
+    attributes:
+      label: ADR requirement
+      options:
+        - label: I understand that an accepted architecture change should be recorded in webowie-docs/adr/.
+          required: true

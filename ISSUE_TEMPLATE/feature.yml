@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose a focused capability for the webOwie ecosystem
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: component
+    attributes:
+      label: Target repository / component
+      placeholder: webOwie/webowie
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the concrete problem or workflow gap.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed capability
+      description: Describe the smallest useful solution.
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Security / privacy considerations
+      description: Note data handling, credentials, permissions or trust-boundary changes.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing components or simpler approaches that could solve the same problem.
