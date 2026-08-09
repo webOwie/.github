@@ -26,6 +26,27 @@ webOwie is an engineering ecosystem for controlled, privacy-focused environments
 
 `Local-first` · `Privacy by design` · `Open interfaces` · `Reproducible infrastructure` · `Auditable automation` · `Minimal vendor lock-in`
 
+## Research identity & project stewardship
+
+webOwie is led and architected by **David Puchalla**. The public research identifiers below provide persistent links between the project, technical research output and the responsible researcher profile.
+
+<table>
+<tr>
+<td width="170" align="center">
+<a href="https://orcid.org/0009-0002-0223-0929"><img src="assets/orcid-qr.svg" width="145" alt="QR code for David Puchalla ORCID iD 0009-0002-0223-0929"></a>
+</td>
+<td>
+<strong>David Puchalla</strong><br>
+Project Lead · System Architecture · OSINT / Intelligence Engineering<br><br>
+<a id="cy-effective-orcid-url" href="https://orcid.org/0009-0002-0223-0929" target="orcid.widget" rel="me noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" alt="ORCID iD icon"> ORCID iD: 0009-0002-0223-0929</a><br>
+<a href="https://researchid.co/puchadav">ResearchID: puchadav · rid166406</a><br>
+<a href="https://researchid.co/rid166406">ResearchID persistent profile</a>
+</td>
+</tr>
+</table>
+
+The QR code resolves directly to the ORCID record and can be used on project documentation, presentations and public research material.
+
 ## Repository map
 
 - **[webowie](https://github.com/webOwie/webowie)** — current client/control-plane implementation work.
