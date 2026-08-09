@@ -6,20 +6,40 @@
 
 Local-first intelligence, OSINT, automation and self-hosted infrastructure designed around privacy, modularity and auditable systems.
 
+[Website](https://webowie.com) · [Documentation](https://github.com/webOwie/webowie-docs) · [Infrastructure](https://github.com/webOwie/webowie-proxmox)
+
 </div>
 
-## Platform
+## What we build
 
-- **OSINT & Research** — structured collection, enrichment and analysis of public information.
-- **Local AI** — self-hosted models and controlled processing paths.
-- **Search** — specialized search and source integration through **search webOwie**.
-- **Infrastructure** — reproducible Linux, virtualization and deployment components.
-- **Security & Privacy** — local-first processing, explicit data flows and replaceable components.
+webOwie is an engineering ecosystem for controlled, privacy-focused environments. The platform combines research workflows, local AI, search, automation and reproducible infrastructure without making a single vendor the center of the system.
+
+| Area | Purpose |
+| --- | --- |
+| **Intelligence** | Structured research, enrichment, analysis and reproducible investigation workflows |
+| **Local AI** | Self-hosted models, agent workflows and controlled processing paths |
+| **Search** | Specialized search and source integration through **search webOwie** |
+| **Infrastructure** | Proxmox, Linux, networking, certificates, deployment and lifecycle automation |
+| **Security** | Explicit trust boundaries, auditable changes, least privilege and rollback-first operations |
 
 ## Engineering principles
 
-`Local-first` · `Privacy by design` · `Open interfaces` · `Reproducible infrastructure` · `Minimal vendor lock-in`
+`Local-first` · `Privacy by design` · `Open interfaces` · `Reproducible infrastructure` · `Auditable automation` · `Minimal vendor lock-in`
 
-**Website:** https://webowie.com  
-**Services:** https://webowie.pro  
-**GitHub:** https://github.com/webOwie
+## Repository map
+
+- **[webowie](https://github.com/webOwie/webowie)** — current client/control-plane implementation work.
+- **[webowie-docs](https://github.com/webOwie/webowie-docs)** — architecture, ADRs, security model and technical documentation.
+- **[webowie-proxmox](https://github.com/webOwie/webowie-proxmox)** — Proxmox infrastructure, deployment and automation components.
+- **[webowie.github.io](https://github.com/webOwie/webowie.github.io)** — public project website for `webowie.com`.
+- **[.github](https://github.com/webOwie/.github)** — organization-wide governance, contribution and security defaults.
+
+## Project status
+
+webOwie is under active development. Public repositories are intended to document architecture and release usable components progressively. Infrastructure-changing capabilities are designed around explicit validation, simulation and rollback rather than direct AI-to-production mutation.
+
+## Contributing and security
+
+Please read the organization-wide [Contributing Guide](https://github.com/webOwie/.github/blob/main/CONTRIBUTING.md) and [Security Policy](https://github.com/webOwie/.github/blob/main/SECURITY.md) before opening a pull request or reporting a vulnerability.
+
+**Primary domain:** https://webowie.com
