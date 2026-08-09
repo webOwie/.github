@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible defect in a webOwie component
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository / component
+      placeholder: webOwie/webowie-proxmox
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v0.1.0 or commit SHA
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime, deployment target and relevant versions.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Remove secrets, tokens, personal data and credentials before posting.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I removed secrets and credentials from this report.
+          required: true
+        - label: This is not a vulnerability report. Security issues follow SECURITY.md.
+          required: true
