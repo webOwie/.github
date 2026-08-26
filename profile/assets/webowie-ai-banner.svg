@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="webOwie AI banner">
+  <rect width="1280" height="420" fill="#050505"/>
+  <path d="M0 352H1280" stroke="#2B3138" stroke-width="2"/>
+  <g transform="translate(92 76)" fill="none" stroke="#F5F5F5" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M120 18 208 69v102l-88 51-88-51V69z"/>
+    <path d="M120 18v204M32 69l88 51 88-51M32 171l88-51 88 51"/>
+    <path d="M77 95c18-4 32-13 43-28 11 15 25 24 43 28-5 18-5 32 0 50-18 4-32 13-43 28-11-15-25-24-43-28 5-18 5-32 0-50z"/>
+  </g>
+  <circle cx="212" cy="196" r="13" fill="#55DCE8"/>
+  <text x="390" y="205" fill="#F5F5F5" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="102" font-weight="750" letter-spacing="-5">webOwie</text>
+  <rect x="850" y="127" width="185" height="104" rx="20" fill="#0D171A" stroke="#55DCE8" stroke-width="4"/>
+  <text x="943" y="200" text-anchor="middle" fill="#55DCE8" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="68" font-weight="850" letter-spacing="6">AI</text>
+  <text x="392" y="268" fill="#C8CDD2" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="28" font-weight="600" letter-spacing="3">LOCAL-FIRST INTELLIGENCE · AGENTS · AUTOMATION</text>
+  <circle cx="94" cy="384" r="6" fill="#55DCE8"/>
+  <text x="116" y="392" fill="#7F8992" font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="21" letter-spacing="2">SYSTEMS. INTELLIGENCE. AUTOMATION.</text>
+</svg>
